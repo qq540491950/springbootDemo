@@ -1,0 +1,13 @@
+server:
+  port: 8015
+
+spring:
+  thymeleaf:
+#    关闭缓存
+    cache: false
+    prefix: classpath:/templates/
+    suffix: .html
+    mode: HTML
+    encoding: utf-8
+    servlet:
+      content-type: text/html
